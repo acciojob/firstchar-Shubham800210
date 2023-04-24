@@ -1,9 +1,11 @@
 function firstChar(text) {
   // your code here
 	if(text){
-		return text.split("");
+	 // ans = text.split("");
+		return (text.substring(0, 1));;
 	}else{
-		return empty string;
+		return "empty string";
+
 	}
 }
 
