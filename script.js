@@ -1,14 +1,10 @@
 function firstChar(text) {
   // your code here
-	if(text){
-
-		
-	 // ans = text.split("");
-		return (text.substring(0, 1));;
-	}else{
-		return '';
-
-	}
+	let newText = text.trim();
+	return newText.charAt(0);
+	
+	
+	
 }
 
 // Do not change the code below
